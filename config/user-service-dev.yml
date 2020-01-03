@@ -13,7 +13,7 @@ spring:
       override-none: true  
 sp:
   user-service:
-    users: "[{\"id\":77, \"username\":\"abc\",\"password\":\"123\"},{\"id\":88, \"username\":\"def\",\"password\":\"456\"},{\"id\":9, \"username\":\"ghi\",\"password\":\"789\"},{\"id\":99, \"username\":\"aaa\",\"password\":\"111\"}]"
+    users: "[{\"id\":777, \"username\":\"abc\",\"password\":\"123\"},{\"id\":888, \"username\":\"def\",\"password\":\"456\"},{\"id\":9, \"username\":\"ghi\",\"password\":\"789\"},{\"id\":99, \"username\":\"aaa\",\"password\":\"111\"}]"
 eureka:
   client:
     service-url:
