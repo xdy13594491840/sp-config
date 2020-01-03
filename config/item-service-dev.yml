@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: item-service
+  cloud:
+    override-none: true  
 eureka:
   client:
     service-url:
