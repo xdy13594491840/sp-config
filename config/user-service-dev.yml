@@ -1,5 +1,10 @@
 server:
   port: 8101
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
 spring:
   application:
     name: user-service
